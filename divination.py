@@ -47,3 +47,6 @@ def play_Divination():
                 print("the secret number is {} and you win {} points.".format(secretNumber,points));
 
     print("GAME OVER!");
+
+if(__name__ == "__main__"):
+    play_Divination()
